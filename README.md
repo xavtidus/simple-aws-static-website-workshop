@@ -245,7 +245,7 @@ Let's make some changes.
 2. Save index.html
 3. Right click the folder `website-files`in the project files pane on the left and select **New Folder**
 4. Give this new folder the name **images** being careful to ensure the name is in lower case
-5. Download this image and save it to your computer somewhere: [Download This Image](#https://d32hgu7z3a2lwb.cloudfront.net/images/smile.jpg)
+5. [Download This Image](https://d32hgu7z3a2lwb.cloudfront.net/images/smile.jpg) and save it to your computer somewhere.
 6. Click the newly created folder **images** ensuring that it is highlighted, then at the top of the Cloud 9 IDE click **File** -> **Upload Files**
 7. Select the image file you just downloaded to your computer and upload that into the **images** folder.
 8. Next, enter the following command into the **terminal pane** at the bottom of the screen to ensure your at the root of your project.
