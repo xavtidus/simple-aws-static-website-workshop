@@ -76,7 +76,7 @@ In the centre this is where your code editors will pop up. At the moment you wil
 
 On the right hand side of the Cloud 9 IDE, you can see the collapsed menus / icons. You may also recognise these icons as AWS Services. We won't need these for now, but they are integrations to the greater AWS ecosystem. Good to know where they are, but we can carry on for now.
 
-In the lower pane we can see the terminal window. This is just like a terminal in MacOS or Linux and will accept nearly all the same commands and logic you are used to. If you are mainly a Windows user, you may find this cheat sheet here helpful in the future, however for today don't worry, these instructions are detailed enough for you to safely continue.
+In the lower pane we can see the terminal window. This is just like a terminal in MacOS or Linux and will accept nearly all the same commands and logic you are used to. If you are mainly a Windows user, you may find [this cheat sheet here](https://cheatography.com/davechild/cheat-sheets/linux-command-line/) helpful in the future, however for today don't worry, these instructions are detailed enough for you to safely continue.
 
 **Important**: You will notice that when you're in your Cloud 9 Instance that the AWS Console disappears. You can easily return to the AWS Console at anytime by clicking the **Cloud 9** logo in the top left hand corner of the screen and selecting the option **Go To Your Dashboard**. This will open the AWS Console in a new tab and will not close your Cloud 9 session.
 
