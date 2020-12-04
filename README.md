@@ -147,7 +147,7 @@ You should see something like this:
 
 If you can see `ìndex.html` in the results, that means you're in the right location.
 
-Then, issue the following command to begin syncing your current folder to your S3 Bucket, be careful to ensure you replace `<s3 bucket name` with the name of the S3 Bucket you created earlier:
+Then, issue the following command to begin syncing your current folder to your S3 Bucket, be careful to ensure you replace `s3 bucket name` with the name of the S3 Bucket you created earlier:
 
 `aws s3 sync . s3://<s3 bucket name>`
 
