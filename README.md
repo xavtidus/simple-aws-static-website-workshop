@@ -224,7 +224,7 @@ Naturally we will want to make changes to our web application over time, and the
 
 To publish our changes all we have to do is run the same `aws sync` command again. Except this time we also need to manage the CloudFront Distribution cache. 
 
-CloudFront caches your content to make delivery to your consumers faster, and because of this your application's updates may not immediately be reflected when you refresh your browser. Cache refreshes will happen naturally, *eventually*, as and when the cache expiry lapses, but we are in a hurry! So we will need to issue a *Cache Invalidation* to tell CloudFront to delete the cache and return to the origin (your S3 Bucket).
+CloudFront caches your content to make delivery to your consumers faster, and because of this your application's updates may not immediately be reflected when you refresh your browser. Cache refreshes will happen naturally, *eventually*, as and when the cache expiry lapses, but we are in a hurry! So we will need to issue a *Cache Invalidation* to tell CloudFront to delete the cache and return to the origin (your S3 Bucket) for the latest content.
 
 Let's make some changes.
 
