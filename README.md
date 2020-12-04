@@ -82,11 +82,11 @@ In the lower pane we can see the terminal window. This is just like a terminal i
 
 ## Step 4, Working with S3 from the command line. 
 
-One of the first things we need to do is create our Amazon S3 Bucket. This S3 Bucket will hold our static site files as S3 Objects. S3 emulates the experience of a usual file system and so you should feel fairly comfortable working your way through S3.
+Our first task is create our Amazon S3 Bucket. This S3 Bucket will hold our static site files as *S3 Objects*. When you use Amazon S3 via the web browser or the CLI it does a fairly good job emulating the experience of a regular file system, and so you should feel fairly comfortable working your way through S3.
 
-Let's begin by creating an S3 bucket for our website files, and this begins by choosing a name. S3 Bucket names need to be globally unique, and once a name is taken it's gone for as long as that S3 Bucket exists! So, to save some time I am going to give my S3 bucket a unique name of "xaviers-website-2020-12-04". You're free to enter whatever you like, keeping in mind you may need to retry if you pick a name that is already in use.
+S3 Bucket names need to be globally unique, and once a name is taken it's gone for as long as that S3 Bucket exists! So, to save some time I am going to give my S3 bucket a unique name of "xaviers-website-2020-12-04". You're free to enter whatever you like, keeping in mind you may need to retry if you pick a name that is already in use. 
 
-Once, you have selected your bucket name, you can create it with the following command:
+Once, you have chosen what you will name your S3 bucket, you can create it with the following command:
 
 `aws s3api create-bucket --bucket your-bucket-name-goes-here`
 
