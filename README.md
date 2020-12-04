@@ -237,7 +237,7 @@ Let's make some changes.
         </head>
         <body>
             <marquee>Hello World, welcome to my page!</marquee>
-            <img src="images/smile.jpg" />
+            <img src="images/smile.png" />
         </body>
     </html>
 ```
@@ -245,8 +245,8 @@ Let's make some changes.
 2. Save index.html
 3. Right click the folder `website-files`in the project files pane on the left and select **New Folder**
 4. Give this new folder the name **images** being careful to ensure the name is in lower case
-5. [Right click this image link](https://d32hgu7z3a2lwb.cloudfront.net/images/smile.jpg) and save it to your computer somewhere.
-6. Click the newly created folder **images** ensuring that it is highlighted, then at the top of the Cloud 9 IDE click **File** -> **Upload Files**
+5. [Right click this image link](https://d32hgu7z3a2lwb.cloudfront.net/images/smile.png) and save it to your computer somewhere.
+6. Click the newly created folder **images** ensuring that it is highlighted, then at the top of the Cloud 9 IDE click **File** -> **Upload Local Files**
 7. Select the image file you just downloaded to your computer and upload that into the **images** folder.
 8. Next, enter the following command into the **terminal pane** at the bottom of the screen to ensure your at the root of your project.
 
@@ -258,10 +258,10 @@ Let's make some changes.
 
 10. Your updates should now be uploaded to your Amazon S3 bucket.
 11. Now check the domain CloudFront created for you, your content should still be the *old version*, this is because we still need to *Invalidate the cache*
-12. Open the CloudFront console and click the **Distribution Id* of your CloudFront Distribution to open the details of your distribution.
-13. Click the **Invalidation* tab to open cache invalidation options
-14. Click the blue button labled *Create Invalidation*
+12. Open the CloudFront console and click the **Distribution Id** of your CloudFront Distribution to open the details of your distribution.
+13. Click the **Invalidation** tab to open cache invalidation options
+14. Click the blue button labelled **Create Invalidation**
 15. In the textbox within the popup window, enter a single asterisk character '*' to invalidate all items cached.
 16. Click the blue button labled **Invalidate** to begin the cache invalidation.
-17. After a few seconds, refresh your web page and you will see your new content details.
+17. After a few seconds, refresh your web page and you will see your new content live on your website.
 
