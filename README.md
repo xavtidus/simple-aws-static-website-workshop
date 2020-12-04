@@ -112,7 +112,7 @@ Let's Create our web application files now. We are just going to be creating a s
 
 4. Next open `index.html` by double clicking it, and paste the below code into the code editor:
 
-
+```html
     <html>
         <head>
             <title>Hello World</title>
@@ -121,6 +121,8 @@ Let's Create our web application files now. We are just going to be creating a s
             <marquee>Hello World, welcome to my page!</marquee>
         </body>
     </html>
+```
+
 
 This code will be our super simple web page for now. It won't win any awards but it's a great place to start.
 
@@ -162,7 +164,7 @@ If so, you have successfully uploaded your files to Amazon S3, congrats!
 
 Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment. Today we will be using CloudFront to serve the files for our website that are stored in our S3 Bucket we created and sync'd to earlier.
 
-Whilst we could create our *CloudFront Distribution* from the CLI like we did with our S3 Bucket, it's time we earned some expeirence working with the AWS Console. So, go ahead and click on the *Services* drop down menu in the top left hand side of the screen, search for `cloudfront` and click it in the list to go to the AWS CloudFront console.
+Whilst we could create our *CloudFront Distribution* from the CLI like we did with our S3 Bucket, it's time we earned some experience working with the AWS Console. So, go ahead and click on the *Services* drop down menu in the top left hand side of the screen, search for `cloudfront` and click it in the list to go to the AWS CloudFront console.
 
 Let's begin creating our first CloudFront Distribution.
 
@@ -224,7 +226,7 @@ Let's make some changes.
 
 1. Open your index.html file and replace the contents of the file with the below code.
 
-```
+```html
     <html>
         <head>
             <title>Hello World</title>
