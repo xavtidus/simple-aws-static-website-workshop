@@ -11,28 +11,7 @@ There are only a few components to this solution, which are:
 
 For this workshop, we will be using *us-east-1* as our AWS Region.
 
-## Step 1, Let's Sign In to AWS
-Signing into the AWS Console is easy, but changes depending if you are working individually or if you are attending an AWS Event. If you are attending an event, your instructor likely gave you access to the Event Engine. 
-Please follow the instructions that are applicable for your personal circumstances today.
-
-<details>
-  <summary>I am using AWS Event Engine</summary>
-  
-  ### Accessing the console via Event Engine
-  
-  
-</details>
-
-
-<details>
-  <summary>I am using my own AWS Account</summary>
-  
-  ### Accessing the console using my own account
-  
-  
-</details>
-
-## Step 2, A Quick Tour of the AWS Console
+## Step 1, A Quick Tour of the AWS Console
 Before we begin it's important that we orient ourselves with the AWS Console. So we have an easier time getting about later.
 
 When you first log into the AWS Console, you will see the AWS Console Home Screen. For now we are just going to focus on the top navigation menu, as there are a few important components here we will take a look at.
@@ -98,6 +77,8 @@ In the centre this is where your code editors will pop up. At the moment you wil
 On the right hand side of the Cloud 9 IDE, you can see the collapsed menus / icons. You may also recognise these icons as AWS Services. We won't need these for now, but they are integrations to the greater AWS ecosystem. Good to know where they are, but we can carry on for now.
 
 In the lower pane we can see the terminal window. This is just like a terminal in MacOS or Linux and will accept nearly all the same commands and logic you are used to. If you are mainly a Windows user, you may find this cheat sheet here helpful in the future, however for today don't worry, these instructions are detailed enough for you to safely continue.
+
+**Important**: You will notice that when you're in your Cloud 9 Instance that the AWS Console disappears. You can easily return to the AWS Console at anytime by clicking the **Cloud 9** logo in the top left hand corner of the screen and selecting the option **Go To Your Dashboard**. This will open the AWS Console in a new tab and will not close your Cloud 9 session.
 
 ## Step 4, Working with S3 from the command line. 
 
