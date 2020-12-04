@@ -224,7 +224,7 @@ Let's make some changes.
 
 1. Open your index.html file and replace the contents of the file with the below code.
 
-```html
+```
     <html>
         <head>
             <title>Hello World</title>
