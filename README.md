@@ -224,7 +224,7 @@ Let's make some changes.
 
 1. Open your index.html file and replace the contents of the file with the below code.
 
-
+```html
     <html>
         <head>
             <title>Hello World</title>
@@ -234,6 +234,7 @@ Let's make some changes.
             <img src="images/smile.jpg" />
         </body>
     </html>
+```
 
 2. Save index.html
 3. Right click the folder `website-files`in the project files pane on the left and select **New Folder**
