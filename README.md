@@ -181,7 +181,7 @@ Let's begin creating our first CloudFront Distribution.
     7. Leave the **Comment** textbox with the values it already has.
     8. Change the option fro **Grant Read Permissions on Bucket** to *Yes, Update Bucket Policy*
     9. Leave **Origin Connection Attempts** as the value *3*
-    10. Leave **Origin Connection Timeout** as the value **
+    10. Leave **Origin Connection Timeout** as the value *10*
     11. You can skip the **Origin Custom Headers** leaving the textboxes empty.
 4. Enter the following settings for the **Default Cache Behavior Settings** section.
     1. For the option **Path Pattern** you cannot change this value, so continue on.
@@ -220,7 +220,7 @@ Let's begin creating our first CloudFront Distribution.
 
 ## Step 8, Let's publish some changes.
 
-Naturally we will want to make changes to our web application over time, and it's really easy to push these changes up to Amazon S3 again, we just run the same `aws sync` command again. Except we also need to manage the CloudFront Distribution cache. After we make changes and upload them you will not see your changes live. This is because CloudFront has cached your content. This will happen naturally *eventually* as the cache expiry lapses but we are in a hurry, so we will need to issue a *Cache Invalidation* to tell CloudFront to delete the cache and return to the origin (your S3 Bucket).
+Naturally we will want to make changes to our web application over time, and it's really easy to push these changes up to Amazon S3, we just run the same `aws sync` command again. Except we also need to manage the CloudFront Distribution cache. After we make changes and upload them you will not see your changes live. This is because CloudFront has cached your content. This will happen naturally *eventually* as the cache expiry lapses but we are in a hurry, so we will need to issue a *Cache Invalidation* to tell CloudFront to delete the cache and return to the origin (your S3 Bucket).
 
 Let's make some changes.
 
