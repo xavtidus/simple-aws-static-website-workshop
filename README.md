@@ -23,9 +23,9 @@ When you first log into the AWS Console, you will see the AWS Console Home Scree
  You can click this at any time to return to the AWS Console Home screen. This can be a useful place to go if you get lost and need to orientate yourself.
  
  ##### Services Drop down menu 
- The services drop down menu is how you easily navigate around the AWS Console. If you click this drop down menu, you will see that the panel on the left saves your recently visited AWS Services (making it easier to go back to where you were).
+ The services drop down menu is how you navigate around the AWS Console. If you click this drop down menu, you will see that the panel on the left saves your recently visited AWS Services (making it easier to go back to where you were).
  
- At the top there is a **Unified Search Bar** which enables you to easiy find AWS Services to visit, as well as related documentation and training. Think of this as a built in search engine that helps you find your way around and makes it easier to find the content you're looking for.
+ At the top there is a **Unified Search Bar** which enables you to find AWS Services to visit, as well as related documentation and training. Think of this as a built in search engine that helps you find your way around and makes it easier to find the content you're looking for.
  
  Below the Unified Search Bar, you can see an organised index of AWS Services, categorised by technology domain.
  
@@ -41,7 +41,7 @@ When you first log into the AWS Console, you will see the AWS Console Home Scree
  
  ##### The AWS Region Drop Down
  
- This is a very important part of the AWS Console. It shows you what AWS Region globally you're currently interacting with. If you click on this drop down, you will be presented with the different AWS Regions available to you. This list changes as you move throughout the AWS Console, as not all Regions have the same AWS Services, so we will only show you the AWS Regions that are available for whatever AWS Service you are currently working with.
+ This is a very important part of the AWS Console. AWS has many regions around the globe. This drop down shows you which AWS Region you're currently interacting with. If you click on this drop down, you will be presented with the different AWS Regions available to you. This list changes as you move throughout the AWS Console, as not all Regions have the same AWS Services, so we will only show you the AWS Regions that are available for whatever AWS Service you are currently working with.
  
  Remember for this workshop today, we are going to be working in the **US East - N'Virginia (us-east-1)** Region. Please make sure this region is selected now to save any headaches later.
  
@@ -60,8 +60,8 @@ We are going to use the AWS Console to create a Cloud 9 instance. This Cloud 9 i
 4. Entering a description is optional, so let's click **Next Step**
 5. Now we need to configure the settings for our Cloud 9 instance, let's leave the option **Environment Type** as the default option *Create a new EC2 instance for environment (direct access)*
 6. For **Instance Type**, we will leave the configuration as *t2.micro (1 GiB RAM + 1 vCPU)*, as this is just a simple development server, we don't need a large instance. 
-7. We wll also leave the default option for **Platform** as *Amazon Linux 2 (Recommended)*
-8. For **Cost-saving setting** we will yet again leave the setting as the default option of *After 30 Minutes*.
+7. Change the default option for **Platform** to *Amazon Linux 2 (Recommended)*
+8. For **Cost-saving setting** we will leave the setting as the default option of *After 30 Minutes*.
 9. Leave everything as is, and click the orange **Next Step** button.
 10. You will now be presented with a **Review** screen to confirm your settings and configuration, give this a quick once over, and then click the orange **Create Environment** button to begin launching your Cloud 9 Instance.
 11. Within less than 2 minutes you should be looking at your new Cloud 9 Development Environment.
@@ -225,7 +225,7 @@ Let's make some changes.
 1. Open your index.html file and replace the contents of the file with the below code.
 
 
-     <html>
+    <html>
         <head>
             <title>Hello World</title>
         </head>
