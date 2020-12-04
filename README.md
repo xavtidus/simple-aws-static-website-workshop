@@ -52,7 +52,7 @@ When you first log into the AWS Console, you will see the AWS Console Home Scree
 
 
 ## Step 2, Launch our Cloud 9 Instance
-We are going to use the AWS Console to create a Cloud 9 instance. This Cloud 9 instance will enable us to make code changes and interact with AWS via the CLI without having to install and configure our local computers to interact with AWS... Very Nice!
+We are going to use the AWS Console to create a Cloud 9 instance. This Cloud 9 instance will enable us to make code changes and interact with AWS via the CLI without having to install and configure software locally... Very Nice!
 
 1. Click the AWS Service Drop Down menu, and in the Unified Search Box search for *Cloud 9* and click the link to open the AWS Cloud 9 Dashboard.
 2. Click the orange *Create Environment* button
