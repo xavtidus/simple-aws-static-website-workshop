@@ -220,7 +220,11 @@ Let's begin creating our first CloudFront Distribution.
 
 ## Step 8, Let's publish some changes.
 
-Naturally we will want to make changes to our web application over time, and it's really easy to push these changes up to Amazon S3, we just run the same `aws sync` command again. Except we also need to manage the CloudFront Distribution cache. After we make changes and upload them you will not see your changes live. This is because CloudFront has cached your content. This will happen naturally *eventually* as the cache expiry lapses but we are in a hurry, so we will need to issue a *Cache Invalidation* to tell CloudFront to delete the cache and return to the origin (your S3 Bucket).
+Naturally we will want to make changes to our web application over time, and the good news here is that it's really simple to push these changes up to Amazon S3 when we do. 
+
+To publish our changes all we have to do is run the same `aws sync` command again. Except this time we also need to manage the CloudFront Distribution cache. 
+
+CloudFront caches your content to make delivery to your consumers faster, and because of this your application's updates may not immediately be reflected when you refresh your browser. Cache refreshes will happen naturally, *eventually*, as and when the cache expiry lapses, but we are in a hurry! So we will need to issue a *Cache Invalidation* to tell CloudFront to delete the cache and return to the origin (your S3 Bucket).
 
 Let's make some changes.
 
