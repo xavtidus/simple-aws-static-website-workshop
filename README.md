@@ -107,7 +107,7 @@ Let's begin by creating an S3 bucket for our website files, and this begins by c
 
 Once, you have selected your bucket name, you can create it with the following command:
 
-`aws s3 `
+`aws s3api create-bucket --bucket your-bucket-name-goes-here`
 
 *If you like you can read more about this AWS CLI command for Creating an S3 Bucket by [Clicking Here](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)*
 
@@ -123,14 +123,13 @@ Make a note of your new S3 Bucket name, we will need to refer to it again soon!
 
 Let's Create our web application files now. We are just going to be creating a simple application today, but everything we are doing will translate to a larger static web application that you wish to host too.
 
-Right click the root folder in the project files pane and select new folder
-![Create new file](./docs/images/)
+1. Right click the root folder in the project files pane and select new folder
 
-Name this folder `website-files`
+2. Name this folder `website-files`
 
-Next, right click this new folder and select New File, and then give the new file the name `index.html` as it will be the default page for our website.
+3. Next, right click this new folder and select New File, and then give the new file the name `index.html` as it will be the default page for our website.
 
-Next open `index.html` by double clicking it, and paste the below code into the code editor:
+4. Next open `index.html` by double clicking it, and paste the below code into the code editor:
 
 
     <html>
