@@ -171,6 +171,8 @@ If you are currently looking at Cloud 9, you will need to open the AWS Console a
 
 Then click the **Services** drop down menu and search and select *Amazon CloudFront* to visit the Amazon CloudFront Console.
 
+### Create our Amazon CloudFront Distribution
+
 Let's begin creating our first CloudFront Distribution.
 
 1. Click the blue button labled **Create Distribution**
