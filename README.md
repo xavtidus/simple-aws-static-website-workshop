@@ -166,6 +166,11 @@ Amazon CloudFront is a fast content delivery network (CDN) service that securely
 
 Whilst we could create our *CloudFront Distribution* from the CLI like we did with our S3 Bucket, it's time we earned some experience working with the AWS Console. So, go ahead and click on the *Services* drop down menu in the top left hand side of the screen, search for `cloudfront` and click it in the list to go to the AWS CloudFront console.
 
+### Navigating to the Amazon CloudFront Console from Cloud 9
+If you are currently looking at Cloud 9, you will need to open the AWS Console again to visit Amazon CloudFront. To do this, click the **Cloud 9** logo in the top left hand corner of the screen and select the option **Go To Your Dashboard**. This will open the AWS Console in a new tab and will not close your Cloud 9 session. 
+
+Then click the **Services** drop down menu and search and select *Amazon CloudFront* to visit the Amazon CloudFront Console.
+
 Let's begin creating our first CloudFront Distribution.
 
 1. Click the blue button labled **Create Distribution**
